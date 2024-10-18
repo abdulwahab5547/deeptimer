@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        darkBlue: "#24315E",
+        pink: "#BA4849",
+        overlayColor: "#C25C5C",
       },
     },
   },
