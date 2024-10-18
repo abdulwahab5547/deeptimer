@@ -17,7 +17,6 @@ function Pomodoro(){
     const [selectedMode, setSelectedMode] = useState<string>('pomodoro');
     const [timer, setTimer] = useState<number>(0);
     const [isRunning, setIsRunning] = useState<boolean>(false);
-    const [timeLeft, setTimeLeft] = useState<number>(1500); // Initialize with pomodoro duration
 
     useEffect(() => {
         setTimer(modeDuration[selectedMode as keyof ModeDuration]);
